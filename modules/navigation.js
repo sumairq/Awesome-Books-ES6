@@ -7,18 +7,18 @@ export const booksDisp = (evt) => {
   addWindow.classList.remove('toggle');
   booksWindow.classList.add('toggle');
   contactWindow.classList.add('toggle');
-}
+};
 
 export const addDisp = (evt) => {
   evt.preventDefault();
   booksWindow.classList.remove('toggle');
   addWindow.classList.add('toggle');
   contactWindow.classList.add('toggle');
-}
+};
 
 export const contactDisp = (evt) => {
   evt.preventDefault();
   contactWindow.classList.remove('toggle');
   booksWindow.classList.add('toggle');
   addWindow.classList.add('toggle');
-}
+};
